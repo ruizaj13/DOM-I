@@ -39,4 +39,42 @@ const siteContent = {
 
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
-logo.setAttribute('src', siteContent["nav"]["img-src"])
+logo.setAttribute('src', siteContent["nav"]["img-src"]);
+
+// NAV LINKS
+const navLink1 = document.querySelector('header nav a');
+navLink1.textContent = 'Services';
+
+const navLink2 = navLink1.nextElementSibling;
+navLink2.textContent = 'Product';
+
+const navLink3 = navLink2.nextElementSibling;
+navLink3.textContent = 'Vision';
+
+const navLink4 = navLink3.nextElementSibling;
+navLink4.textContent = 'Features';
+
+const navLink5 = navLink4.nextElementSibling;
+navLink5.textContent = 'About';
+
+const navLink6 = navLink5.nextElementSibling;
+navLink6.textContent = 'Contact';
+// END NAV LINKS
+
+// TITLE STUFF
+const siteTitle = document.querySelector('h1');
+siteTitle.innerText = 'DOM \n IS \n AWESOME';
+
+const titleButton = document.querySelector('button');
+titleButton.textContent = 'Get Started';
+
+const titleImg = document.getElementById('cta-img');
+titleImg.setAttribute('src', 'img/header-img.png'); 
+// END TITLE STUFF
+
+// MAIN CONTENT
+const featuresHead = document.getElementsByClassName('top-content', 'h4');
+featuresHead.textContent = 'Features';
+
+// END MAIN CONTENT
+
