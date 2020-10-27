@@ -73,8 +73,22 @@ titleImg.setAttribute('src', 'img/header-img.png');
 // END TITLE STUFF
 
 // MAIN CONTENT
-const featuresHead = document.getElementsByClassName('top-content', 'h4');
+const featuresHead = document.querySelector('.top-content .text-content:nth-of-type(1) h4');
 featuresHead.textContent = 'Features';
 
+const aboutHead = document.querySelector('.top-content .text-content:nth-of-type(2) h4');
+aboutHead.textContent = 'About';
+
+const featuresTxt = document.querySelector('.top-content .text-content:nth-of-type(1) p');
+featuresTxt.textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+const aboutTxt = document.querySelector('.top-content .text-content:nth-of-type(2) p');
+aboutTxt.textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+const midImg = document.getElementById('middle-img');
+midImg.setAttribute('src', 'img/mid-page-accent.jpg');
+
 // END MAIN CONTENT
+
+
 
