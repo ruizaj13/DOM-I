@@ -73,6 +73,8 @@ titleImg.setAttribute('src', 'img/header-img.png');
 // END TITLE STUFF
 
 // MAIN CONTENT
+
+// TOP CONTENT
 const featuresHead = document.querySelector('.top-content .text-content:nth-of-type(1) h4');
 featuresHead.textContent = 'Features';
 
@@ -84,10 +86,58 @@ featuresTxt.textContent = 'Features content elementum magna eros, ac posuere elv
 
 const aboutTxt = document.querySelector('.top-content .text-content:nth-of-type(2) p');
 aboutTxt.textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+// END TOP CONTENT
 
+// MIDDLE IMAGE
 const midImg = document.getElementById('middle-img');
 midImg.setAttribute('src', 'img/mid-page-accent.jpg');
+// END MIDDLE IMAGE
 
+// BOTTOM CONTENT
+
+const servicesHead = document.querySelector('.bottom-content .text-content:nth-of-type(1) h4');
+servicesHead.textContent = 'Services';
+
+const productHead = document.querySelector('.bottom-content .text-content:nth-of-type(2) h4');
+productHead.textContent = 'Product';
+
+const visionHead = document.querySelector('.bottom-content .text-content:nth-of-type(3) h4');
+visionHead.textContent = 'Vision';
+
+const servicesTxt = document.querySelector('.bottom-content .text-content:nth-of-type(1) p');
+servicesTxt.textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+const productTxt = document.querySelector('.bottom-content .text-content:nth-of-type(2) p');
+productTxt.textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+const visionTxt = document.querySelector('.bottom-content .text-content:nth-of-type(3) p');
+visionTxt.textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+// END BOTTOM CONTENT
+
+// CONTACT
+
+const contactHead = document.querySelector('.contact h4');
+contactHead.textContent = 'Contact';
+
+const contactAddr = document.querySelector('.contact p');
+contactAddr.innerText = '123 Way 456 Street \n Somewhere, USA';
+
+const contactNum = contactAddr.nextElementSibling;
+contactNum.textContent = '1 (888) 888-8888';
+
+const contactEmail = contactNum.nextElementSibling;
+contactEmail.textContent = 'sales@greatidea.io';
+
+
+// END CONTACT
+
+// FOOTER
+
+const copyRight = document.querySelector('footer p');
+copyRight.textContent = 'Copyright Great Idea! 2018';
+
+// END FOOTER
 // END MAIN CONTENT
 
 
